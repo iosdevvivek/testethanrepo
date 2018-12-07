@@ -18,6 +18,11 @@ unordered
 1. Item 3
    1. Item 3a
    1. Item 3b
+   
+   First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
    Links
    http://github.com - automatic!
 [GitHub](http://github.com)
@@ -29,12 +34,13 @@ As Kanye West said:
 In line code:
 I think you should use an
 `<addr>` element here instead.
-What is the difference between Delegate and KVO?
-Both are ways to have relationships between objects. Delegation is a one-to-one relationship where one object implements a delegate protocol and another uses it and sends messages to it, assuming that those methods are implemented since the receiver promised to comply to the protocol. KVO is a many-to-many relationship where one object could broadcast a message and one or multiple other objects can listen to it and react. KVO does not rely on protocols. KVO is the first step and the fundamental block of reactive programming (RxSwift, ReactiveCocoa, etc.)
-Lazy Stored Property vs Stored Property
-The closure associated to the lazy property is executed only if you read that property. So if for some reason that property is not used (maybe because of some decision of the user) you avoid unnecessary allocation and computation. You can populate a lazy property with the value of a stored property.
 
-You can use self inside the closure of a lazy property. If you need to use self inside the function. In fact, if you're using a class rather than a structure, you should also declare [unowned self] inside your function so that you don't create a strong reference cycle(check the code below).
+What is the difference between Delegate and KVO?
+*[www.google.com]
+*[https://github.com/dashvlas/awesome-ios-interview/blob/master/Resources/English.md#integration-tests]
+* test
+1.test
+2.test
 
 import UIKit
 import Foundation
