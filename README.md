@@ -36,11 +36,14 @@ I think you should use an
 `<addr>` element here instead.
 
 What is the difference between Delegate and KVO?
-*[www.google.com]
-*[https://github.com/dashvlas/awesome-ios-interview/blob/master/Resources/English.md#integration-tests]
+* [www.google.com]
+* [https://github.com/dashvlas/awesome-ios-interview/blob/master/Resources/English.md#integration-tests]
 * test
-1.test
-2.test
+1. test
+2. test
+3. test3
+ 1. t1
+ 2. t2
 
 import UIKit
 import Foundation
