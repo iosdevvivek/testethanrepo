@@ -1,3 +1,4 @@
+[https://github.com/iwasrobbed/Swift-CheatSheet#commenting]
 #### button programatically
 override func viewDidLoad() {
   super.viewDidLoad()
@@ -20,3 +21,35 @@ label.center = CGPoint(x: 160, y: 285)
 label.textAlignment = .center
 label.text = "I'am a test label"
 self.view.addSubview(label)
+
+**Declaring Classes**
+
+import UIKit
+
+class MyClass {
+    // Declare any constants or variables at the top
+    let kRPErrorDomain = "com.myIncredibleApp.errors"
+    var x: Int, y: Int
+
+    // Use mark statements to logically organize your code
+
+    // MARK: - Class Methods, e.g. MyClass.functionName()
+
+    class func alert() {
+        print("This is a class function.")
+    }
+
+    // MARK: - Instance Methods, e.g. myClass.functionName()
+
+    init(x: Int, y: Int) {
+        self.x = x
+        self.y = y
+    }
+
+    // MARK: - Private Methods
+
+    private func pointLocation() -> String {
+        return "x: \(x), y: \(y)"
+    }
+}
+
