@@ -1,4 +1,4 @@
-** Swift Content **
+**Swift Content**
 Strong CS fundamentals, including data structures and algorithms.
 Strong knowledge of Views, ViewControllers, storyboards, lifecycle of UIView, HTTP frameworks,
 delegates vs notifications vs blocks, KVO's, blocks vs closures, caching and local storage.
