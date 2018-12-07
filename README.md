@@ -7,33 +7,9 @@ _This will also be italic_
 **This text will be bold**
 __This will also be bold__
 _You **can** combine them_
-unordered
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-  ordered
-  1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-   
-   First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-   Links
-   http://github.com - automatic!
-[GitHub](http://github.com)
-Blockquotes:
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-In line code:
-I think you should use an
-`<addr>` element here instead.
+* [https://dillinger.io/]
+  
+  
 
 What is the difference between Delegate and KVO?
 * [www.google.com]
